@@ -6,7 +6,7 @@
 #   
   
   N <- 30;  Nnode <- 40;  G <-3  
-  sim.data <- readRDS(paste("Input/simdata_","Nnet",N,"_Nnode",Nnode,"_",rp,".rds",sep=''))
+  sim.data <- readRDS(paste("simdata_","Nnet",N,"_Nnode",Nnode,"_",rp,".rds",sep=''))
   packages <- c("scales",
                 "foreach", "doParallel",
                 "dplyr", "xtable",
